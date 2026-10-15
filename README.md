@@ -17,7 +17,7 @@
 [Diseño Visual](#-identidad-visual-kinety) •
 [Arquitectura](#-arquitectura-y-tecnologías) •
 [Instalación](#-instalación-y-ejecución) •
-[Contexto Académico](#-contexto-académico)
+[Backend Sync](#-integración-con-kinety-backend-go)
 
 ---
 
@@ -161,20 +161,28 @@ Kinety Mobile está diseñado bajo el principio **Offline-First**, funcionando d
 
 ---
 
-## 🎓 Contexto Académico
+## 🗺️ Roadmap & Próximas Mejoras
 
-* **Institución:** Universidad Laica "Eloy Alfaro" de Manabí (ULEAM)
-* **Facultad:** Ciencias de la Vida y Tecnologías
-* **Carrera:** Ingeniería de Software — 6to Nivel "A"
-* **Asignatura:** Desarrollo de Aplicaciones Móviles Nativas
-* **Docente:** Ing. Edgardo Panchana Flores
-* **Autor:** Kevin Joel Alonso Bailón
-* **Periodo:** Septiembre 2026 – Febrero 2027
+- [x] **Arquitectura Offline-First:** Persistencia local SQLite con consultas tipadas y reactivas.
+- [x] **Autenticación & Sesión:** Login / Registro local y gestión de preferencias con DataStore.
+- [x] **CRUD Completo:** Flujo integral de Issues, Proyectos y Módulos.
+- [x] **Temas Merlot Noir & Pearl Silver:** Integración directa de la paleta y diseño de Kinety Web.
+- [x] **Navegación Cápsula Flotante:** Micro-skeuomorfismo y ergonomía móvil.
+- [x] **Sincronización REST:** Cliente HTTP para backend Go mediante tokens PAT.
+- [ ] **Adjuntos & Evidencias:** Carga de imágenes y capturas directo a los issues.
+- [ ] **Notificaciones Push:** Alertas por cambios de estado y menciones.
+- [ ] **Cola de Sincronización:** Registro de mutaciones offline con resolución automática al reconectar.
+
+---
+
+## 📄 Licencia
+
+Distribuido bajo la Licencia MIT. Consulta el archivo `LICENSE` para más información.
 
 ---
 
 <div align="center">
 
-Desarrollado con ❤️ y Kotlin para **Kinety**.
+Desarrollado para el ecosistema **Kinety**.
 
 </div>

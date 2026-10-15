@@ -340,7 +340,7 @@ fun SettingsScreen(
                         color = MaterialTheme.colorScheme.onBackground
                     )
                     Text(
-                        text = "Universidad Laica Eloy Alfaro de Manabí (ULEAM)\nDesarrollo de Aplicaciones Móviles Nativas",
+                        text = "Workspace Companion for Engineering & Product Teams",
                         fontSize = 11.sp,
                         color = MaterialTheme.colorScheme.onSurfaceVariant
                     )
